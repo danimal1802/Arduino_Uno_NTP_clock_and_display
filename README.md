@@ -20,11 +20,11 @@ The LCD screen uses I2C via the SDA/SCL ports on the arduino.
 The TM1637 LED module uses pins 6 & 7 (programmable) on the Arduino 
 
 The code:
-* loads required libraries 
-* connects to the local ethernet network
+* Loads required libraries 
+* Connects to the local ethernet network
 
 In a loop:
-* retrieves NTP time from a server
+* Retrieves NTP time from a server
 * Displays the time on the TM1637 LED module in HH:MM format
 * Displays the device IP address and ping time to a programmable website of choice
 
