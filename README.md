@@ -1,5 +1,5 @@
-Arduino Uno clock with Ethernet hat displaying NTP and ping times
------------------------------------------------------------------
+Arduino Uno NTP clock and display
+---------------------------------
 
 2 April 2024
 
