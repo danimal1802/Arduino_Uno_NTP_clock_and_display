@@ -28,5 +28,3 @@ In a loop:
 * Displays the time on the TM1637 LED module in HH:MM format
 * Displays the device IP address and ping time to a programmable website of choice
 
-  
-* 
