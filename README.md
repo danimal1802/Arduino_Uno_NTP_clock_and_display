@@ -7,12 +7,19 @@ Project Hardware:
 -----------------
 
 Arduino Uno 
+
 W5100 Ethernet Shield for Arduino uno
+
 2004a LCD - 5V 20X4 2004 20x4 Character LCD Display
+
 TM1637 LED Display Module for Arduino 7 Segment x 4 digit
+
 (dupont jumper wires)
+
 (mounting hardware) 
+
 (ethernet cable) 
+
 (USB type B cable - power and PC connection) 
 
 The LCD screen uses I2C via the SDA/SCL ports on the arduino.
