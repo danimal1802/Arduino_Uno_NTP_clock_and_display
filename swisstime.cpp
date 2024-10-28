@@ -1,9 +1,9 @@
 #include <SPI.h>
-#include <Ethernet.h>
+#include <Ethernet.h>           # Ethernet by Various 
 #include <Wire.h>
-#include <LiquidCrystal_I2C.h>
-#include <TM1637Display.h>
-#include <TimeLib.h>
+#include <LiquidCrystal_I2C.h>  # by Frank de Brabander
+#include <TM1637Display.h>      # by Avishay Orpaz
+#include <TimeLib.h>            # Arduino Time Lib by Michael Margolis
 #include <EthernetUdp.h>
 
 // Replace these values with your network settings
@@ -109,7 +109,7 @@ void displayNetworkInfo() {
   lcd.setCursor(0, 1);
   lcd.print(Ethernet.localIP());
   lcd.setCursor(0, 2);
-  lcd.print("Swiss Time:");
+  lcd.print("Swiss Time");
 
   // Measure ping time to google.com
   int pingTime = measurePingTime();
