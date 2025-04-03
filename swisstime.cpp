@@ -5,7 +5,7 @@
 // TM1637 4x7segmet display
 // Ethernet Hat
 //
-// This project displays Time, Date, Day of the week, TimeZone for 5 major cities
+// This project displays *Daylight-Savings Time, Date, Day of the week, TimeZone for 5 major cities
 // the display cycles through each city information with a delay (3 seconds)
 //
 
